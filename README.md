@@ -15,4 +15,5 @@ My Sources:
 * Smallest Width: https://www.w3schools.com/cssref/pr\_dim\_min-width.php
 * Shrinking Flex Items: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink
 * Z-Index: https://www.w3schools.com/cssref/pr\_pos\_z-index.php
+* https://stackoverflow.com/questions/28411499/disable-scrolling-on-body
 
