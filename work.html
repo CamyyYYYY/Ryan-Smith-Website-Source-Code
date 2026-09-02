@@ -86,16 +86,18 @@
 
         @media (max-width: 600px){
             .sixFilms{
-                width:96%;
+                width:90%;
                 margin:110px auto 0;
-                grid-template-columns: repeat(3,1fr);
-                column-gap:6px;
+                grid-template-columns: repeat(2,1fr);
+                column-gap:15px;
                 row-gap: 35px;
+                box-sizing: border-box;
             }
         
 
             .film1, .film2, .film3, .film4, .film5, .film6{
-                width:27vw;
+                width:100%;
+                box-sizing: border-box;
                 font-size: clamp(14px,4vw,20px);
             }
 
