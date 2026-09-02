@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .Home, .Work, .About, .Contact{
+            position:relative;
+            width: auto;
+            height: auto;
+            background-color: black;
+            border-style: solid;
+            border-color: rgb(217, 200, 16);
+            
+            color:white;
+            text-align: center;
+            font-size: clamp(14px,1.5vw,20px);
+            font-style: oblique;
+            border-radius: 20px;
+            padding-left: clamp(8px,1vw,15px);
+            padding-right: clamp(8px,1vw,15px);
+            white-space: nowrap;
+            animation-name: myButton;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+
+        body{
+            background-image: url('mazebackground.jpg'); 
+            background-position: center;
+            background-size: 100% 100%;
+            background-repeat: no repeat;
+            width:100%;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .film1,.film2,.film3,.film4,.film5,.film6 {
+            position: relative;
+
+            width: min(18vw, 28vh, 220px);
+
+            aspect-ratio: 220 / 260;
+
+            background-color: black;
+
+            border-style: solid;
+            border-color: rgb(217, 200, 16);
+
+            color: white;
+            text-align: center;
+
+            font-size: clamp(18px, 2.5vw, 40px);
+            font-style: oblique;
+
+            border-radius: 20px;
+
+            animation-name: myButton;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        .film1, .film2, .film3, .film4, .film5, .film6 :hover{
+            background-color: black;
+            border-color: rgb(217, 200, 16);
+            color:white;
+        }
+
+        .film1 img, .film2 img, .film3 img, .film4 img, .film5 img, .film6 img{
+            width: 90%;
+            height: auto;
+        }
+
+        .resize{
+            display:flex;
+            position: absolute;
+            flex-direction: row;
+            align-items:center;
+            gap: 10px;
+            right:2%;
+            top:0;
+        }
+
+        @media (max-width: 600px){
+            .sixFilms{
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(2,1fr);
+                column-gap:10px;
+                row-gap: 10px;
+                top:80px;
+            }
+        
+
+            .film1, .film2, .film3, .film4, .film5, .film6{
+                width:min(27vw,25vh);
+                font-size: clamp(14px,4vw,20px);
+            }
+        }
+
+        @keyframes myButton{
+            0% {transform: translateY(20px);}
+            50% {transform: translateY(30px);}
+            100% {transform: translateY(20px);}
+        }
+
+        .sixFilms{
+            position: absolute;
+            top:90px;
+            bottom: 40px;
+            left:7.5%;
+            right:7.5%;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            column-gap:clamp(20px,3vw,50px);
+            row-gap:clamp(15px,3vh,40px);
+            justify-items: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="sixFilms">
+        <a href="google.com">
+            <div class="film1">
+                <img src="slackerlogo.png">
+                <p><u><b>Film 1</b></u></p>
+            </div>
+        </a>
+
+        <a href="google.com">
+            <div class="film2">
+                <img src="slackerlogo.png">
+                <p><u><b>Film 2</b></u></p>
+            </div>
+        </a>
+
+        <a href="google.com">
+            <div class="film3">
+                <img src="slackerlogo.png">
+                <p><u><b>Film 3</b></u></p>
+            </div>
+        </a>
+
+        <a href="google.com">
+            <div class="film4">
+                <img src="slackerlogo.png">
+                <p><u><b>Film 4</b></u></p>
+            </div>
+        </a>
+
+        <a href="google.com">
+            <div class="film5">
+                <img src="slackerlogo.png">
+                <p><u><b>Film 5</b></u></p>
+            </div>
+        </a>
+
+        <a href="google.com">
+            <div class="film6">
+                <img src="slackerlogo.png">
+                <p><u><b>Film 6</b></u></p>
+            </div>
+        </a>
+    </div>
+
+    <div class="resize">
+        <a href="index.html">
+            <div class="Home">
+                <p><b><u>Home</u></b></p>
+            </div>
+        </a>
+        
+        <a href="work.html">
+            <div class="Work">
+                <p><b><u>My Work</u></b></p>
+            </div>
+        </a>
+
+        <a href="about.html">
+            <div class="About">
+                <p><b><u>About</u></b></p>
+            </div>
+        </a>
+
+        <a href="contact.html">
+            <div class="Contact">
+                <p><b><u>Contact</u></b></p>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
