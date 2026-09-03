@@ -17,9 +17,9 @@ My Sources:
 * Z-Index: https://www.w3schools.com/cssref/pr\_pos\_z-index.php
 * https://stackoverflow.com/questions/28411499/disable-scrolling-on-body
   
-Ryan Smith Website Form Email:
+Ryan Smith Website Form/ Linktree/ WIX Email:
 r68629296@gmail.com
-Ryan Smith Website Form Pass:
+Ryan Smith Website Form/ Linktree/ WIX Pass:
 ryansmithkillspeople0001
-Ryan Smith Website Form Birthday/ gender:
+Ryan Smith Website Form/ Linktree/ WIX Birthday/ gender:
 12/07/2004 and male gender
