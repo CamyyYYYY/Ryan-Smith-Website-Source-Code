@@ -19,9 +19,7 @@ My Sources:
   
 Ryan Smith Website Form Email:
 r68629296@gmail.com
-
 Ryan Smith Website Form Pass:
 ryansmithkillspeople0001
-
 Ryan Smith Website Form Birthday/ gender:
 12/07/2004 and male gender
