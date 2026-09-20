@@ -42,11 +42,11 @@ r68629296@gmail.com
 
 
 
-\*Ryan Smith Website Form/ Linktree/ WIX Pass:
+\*Ryan Smith Website Form/ WIX Pass:
 
 ryansmithkillspeople0001
 
-
+Ryan Smith Website linktree Pass: hellohello
 
 \*Ryan Smith Website Form/ Linktree/ WIX Birthday/ gender:
 
